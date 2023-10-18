@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/camejocristiano/senai/issues"
   },
-  "homepage": "https://github.com/camejocristiano/senai#readme"
+  "homepage": "https://github.com/camejocristiano/senai#readme",
+  "dependencies": {
+    "mongoose": "^7.6.3"
+  }
 }
