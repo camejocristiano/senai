@@ -1,18 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://127.0.0.1:27017/test');
 
-import(produto.js)
-
-    // // Object
-    // const Produto = mongoose.model('Produto',
-    // {
-    //     name : String,
-    //     desciption : String,
-    //     price : Number
-    // })
-
-async function main () {
-    
     // Create
     Produto.create({
         name : "PC",
@@ -33,7 +21,3 @@ async function main () {
 
     // Find
     console.log(await Produto.find());
-
-}
-
-main()

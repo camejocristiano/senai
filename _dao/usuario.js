@@ -1,15 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://127.0.0.1:27017/test');
 
-    // Object
-    const Usuario = mongoose.model('Usuario',
-    {
-        nome: String,
-        idade: Number
-    })
-
-async function main () {
-    
     // Create
     Usuario.create({
         nome: "Cris",
@@ -29,7 +20,3 @@ async function main () {
 
     // Find
     console.log(await Usuario.find());
-
-}
-
-main()
