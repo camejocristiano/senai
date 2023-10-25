@@ -1,0 +1,34 @@
+SISTEMA VENDOR  - DOCUMENTO DE REQUISITOS
+
+REQUISITOS FUNCIONAIS
+
+01 - O sistema consiste em estoque de produtos. 
+02 - O sistema consiste em venda de produtos.
+03 - Um produto deve ser cadastrado com: nome, descrição, valor, quantidade.
+04 - Os usuários do sistemas são cadastrados com: nome, cpf, telefone e tipo de usuário, sendo funcionário ou cliente. 
+05 - Apenas um funcionário pode adicionar produtos.
+06 - Vendas podem ser iniciadas e finalizadas.
+07 - Um cliente pode armazenar seus interesses de compra em um carrinho de compras.
+08 - Uma venda pode ter inumeros protudos, deve apresentar: nome do cliente, data, lista de produtos e valor toral.
+09 - Produtos com estoque zerado não devem ser apresentados ao cliente.
+
+REQUISITOS SUPLEMENTARES
+
+01 - O sistema deve operar via interface Web.
+
+
+
+DETALHAMENTO
+
+07 - Um cliente pode armazenar seus interesses de compra em um carrinho de compras.
+DESCRIÇÃO: O cliente visualiza uma lista de produtos em estoque, podendo selecionar e adicionar em seu carrinho de compras. 
+Ao adicionar o produto no carrinho, o sistema deve somar o valor total da compra.
+FONTES: Sr. Product OWner.
+USUÁRIO: Cliente.
+INFORMAÇÕES DE ENTRADA:
+O cliente solicita a apresentação da lista de produtos.
+INFORMAÇÕES DE SAÍDA: A lista de produtos solicitada.
+RESTRIÇÕES LÓGICAS:
+Não há.
+RESTRIÇÕES TECNOLÓGICAS:
+Não há.

@@ -1,15 +1,8 @@
 // Object
-// const Produto = mongoose.model('Produto', 
-// {
-// 	name: String, 
-// 	description: String, 
-// 	price: Number
-// });
-
-    // Object
-    const Produto = mongoose.model('Produto',
-    {
-        name : String,
-        desciption : String,
-        price : Number
-    })
+const Produto = mongoose.model('Produto',
+{
+     nome : String,
+     descricao : String,
+     preco : Number,
+     estoque: String
+})
